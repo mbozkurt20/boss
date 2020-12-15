@@ -1,0 +1,22 @@
+{
+    font-family: "Work Sans";
+}
+
+.firsatt{
+    font-size: 50px;
+    font-weight: 100;
+    animation: hello 0.5s ease-in-out infinite;
+    text-align: center;
+}
+
+@keyframes hello {
+    0% {
+        font-weight: 100;
+    }
+    50% {
+        font-weight: 900;
+    }
+    100% {
+        font-weight: 100;
+    }
+}
